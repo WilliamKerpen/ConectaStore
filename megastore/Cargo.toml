@@ -1,0 +1,12 @@
+
+[package]
+name = "conectastore"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Permite converter JSON em estruturas de dados do Rust.
+serde = { version = "1", features = ["derive"] }
+
+# Permite ler e escrever arquivos JSON.
+serde_json = "1"
